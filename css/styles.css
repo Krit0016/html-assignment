@@ -1,0 +1,46 @@
+/* My Awesome CSS */
+
+body {
+    background-color: #ffdcde;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}
+
+header, footer {
+    background-color: #A5B076;
+}
+
+.site-title {
+    color: white;
+}
+
+#my-image {
+    box-shadow: 0 0 2px 1px black;
+}
+
+.list-style {
+    list-style: square;
+}
+
+.list-style 
+li:nth-child(odd) { 
+    background: #bddffb;
+}
+
+.no-bullets {
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    border-style: solid;
+    background-color: #ff8360;
+    color: white;
+    margin: 0-.60rem;
+    padding: 0 .60rem;
+}
+a:hover {
+    background-color: #FFE985;
+    color: #656647;
+}   
+    
